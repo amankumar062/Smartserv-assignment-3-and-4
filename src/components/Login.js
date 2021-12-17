@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
-import logo from "../smartserv.jpg";
 import "../style/login.sass";
 
 export default function Login() {
@@ -62,7 +61,7 @@ export default function Login() {
     return (
         <div className="login">
             <div className="login-box">
-                <img src={logo} alt="smartserv" />
+                <img src="https://i.imgur.com/PaswVCY.jpg" alt="smartserv" />
                 <form onSubmit={onSubmit}>
                     <input
                         autoComplete="off"
